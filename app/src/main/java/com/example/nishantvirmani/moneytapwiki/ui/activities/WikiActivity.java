@@ -98,7 +98,7 @@ public class WikiActivity extends AppCompatActivity implements WikiItemListener 
                 public void run() {
                     mHandler.sendEmptyMessage(0);
                 }
-            }, 500);
+            }, 800);
         }
 
         @Override
